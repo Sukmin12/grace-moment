@@ -31,7 +31,7 @@ const S = {
 
 // ── 네비게이션 ─────────────────────────────────────────────────────────
 function Nav({ page, setPage }) {
-  const [menuOpen, setMenuOpen] = useState(false);
+  // const [menuOpen, setMenuOpen] = useState(false);
   const links = [
     { id: "home", label: "홈" },
     { id: "about", label: "소개" },
@@ -279,7 +279,7 @@ function DownloadPage({ setPage }) {
 // ── 얼굴 인식 페이지 ───────────────────────────────────────────────────
 function FacePage() {
   const [step, setStep] = useState("intro"); // intro | consent | upload | result
-  const [agreed, setAgreed] = useState(false);
+  // const [agreed, setAgreed] = useState(false);
   const [preview, setPreview] = useState(null);
   const [loading, setLoading] = useState(false);
 
